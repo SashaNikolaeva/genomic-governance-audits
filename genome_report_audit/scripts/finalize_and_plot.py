@@ -17,7 +17,7 @@ final, unreviewed = [], []
 for r in rows:
     if r["pmcid"] in excl: continue
     o = {k: r[k] for k in ("pmcid", "stratum", "year", "journal", "doi", "title")}
-    o["location_reported"] = T(r["location_reported"]); o["coordinates"] = T(r["coordinates"])
+    o["location_reported_auto"] = T(r["location_reported"]); o["coordinates"] = T(r["coordinates"])
     o["permit_mentioned"] = T(r["permit_mentioned"]); o["open_deposition"] = T(r["open_deposition"])
     o["us_sampling"] = T(r["us_sampling"])
     for c in CRITS:
@@ -32,13 +32,15 @@ for r in rows:
     if L is None: unreviewed.append((r["pmcid"], "land_type"))
     o["land_type"] = L["land_type"] if L else "unreviewed"; o["land_type_basis"] = L["basis"] if L else ""
     o["sampling_site"] = L["site"] if L else ""; o["land_type_note"] = L["note"] if L else ""
+    # criterion 1 is taken from the hand read (the regex misses town names and counts zoos)
+    o["location_reported"] = (L["wild_locality_reported"] == "1") if L else o["location_reported_auto"]
     final.append(o)
 if unreviewed: print("UNREVIEWED POSITIVES:", unreviewed)
 cols = list(final[0].keys())
 with open(res / "scores_final.csv", "w", newline="") as fh:
     w = csv.DictWriter(fh, fieldnames=cols); w.writeheader(); w.writerows(final)
 
-ROWS = [("location_reported", "Sampling locality reported"),
+ROWS = [("location_reported", "Wild sampling locality reported"),
         ("permit_mentioned", "Collection permit or authorization mentioned"),
         ("indigenous_lands", "Indigenous lands or peoples acknowledged\nfor the sampled site"),
         ("consultation_care", "Consultation or partnership with an\nIndigenous Nation reported"),
@@ -51,6 +53,7 @@ for s, _ in STRATA:
     summary[s] = {"n": n, **{k: sum(1 for o in rs if o[k]) for k, _ in ROWS},
                   "indigenous_cultural_mention": sum(1 for o in rs if o["indigenous_cultural_mention"]),
                   "coordinates": sum(1 for o in rs if o["coordinates"]),
+                  "location_reported_auto": sum(1 for o in rs if o["location_reported_auto"]),
                   "open_deposition": sum(1 for o in rs if o["open_deposition"]),
                   "us_sampling": sum(1 for o in rs if o["us_sampling"])}
 LAND = [("federal_public", "Federal (national) public land or waters"),
@@ -58,7 +61,7 @@ LAND = [("federal_public", "Federal (national) public land or waters"),
         ("local_public", "County or municipal park"),
         ("university_reserve", "University reserve, station or garden"),
         ("private_land", "Private land or preserve"),
-        ("indigenous_lands_waters", "Indigenous-governed lands or waters"),
+        ("indigenous_lands_waters", "Indigenous co-governance of the site\ndescribed in the report"),
         ("marine_waters", "Public waters, no named managed unit"),
         ("ex_situ", "Ex situ source (captive, cultivated, museum)"),
         ("unspecified", "Land tenure not stated or not resolvable")]

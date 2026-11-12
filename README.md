@@ -13,7 +13,7 @@ The two audits answer different questions and are reported separately.
 |---|---|---|
 | Question | How does the California non-human DNA literature as a whole document Tribal rights? | How do reference-genome reports (the EBP-era "accession number" genre) document them? |
 | Sample | Every open-full-text paper in Europe PMC, 2011–2026, with "California" + DNA methods + ecology in title/abstract, after a title screen | Every CCGP genome report in *J. Heredity* with open full text, plus other EBP-affiliated wild-species genome reports, 2022–2026 |
-| n scored | 662 | 75 (CCGP) + 76 (other) |
+| n scored | 662 | 75 (CCGP) + 75 (other) |
 | Folder | [`ca_dna_tribal_audit/`](ca_dna_tribal_audit/) | [`genome_report_audit/`](genome_report_audit/) |
 | Write-up | [`ca_dna_tribal_audit/results/AUDIT_SUMMARY.md`](ca_dna_tribal_audit/results/AUDIT_SUMMARY.md) | [`genome_report_audit/results/AUDIT_SUMMARY.md`](genome_report_audit/results/AUDIT_SUMMARY.md) |
 
@@ -44,21 +44,22 @@ agreement and Local Contexts criteria (142 papers) was read and classified by ha
 in [`ca_dna_tribal_audit/results/adjudications.csv`](ca_dna_tribal_audit/results/adjudications.csv) and the
 verified positives in [`positives_list.md`](ca_dna_tribal_audit/results/positives_list.md).
 
-## Finding 2 — Reference-genome reports, 2022–2026 (n = 75 CCGP + 76 other EBP-affiliated)
+## Finding 2 — Reference-genome reports, 2022–2026 (n = 75 CCGP + 75 other EBP-affiliated)
 
 ![Genome-report audit](genome_report_audit/figures/governance_audit.png)
 
-| Criterion | CCGP (n = 75) | Other EBP-affiliated (n = 76) |
+| Criterion | CCGP (n = 75) | Other EBP-affiliated (n = 75) |
 |---|---|---|
-| Sampling locality reported | 74 | 42 |
-| Collection permit or authorization mentioned | 39 | 39 |
+| Wild sampling locality reported (hand read) | 73 | 55 |
+| Collection permit or authorization mentioned | 39 | 38 |
 | Indigenous lands or peoples acknowledged for the sampled site | 2 | 4 |
 | Consultation or partnership with an Indigenous Nation reported | 0 | 2 |
 | Local Contexts TK/BC Label or Notice attached | 0 | 0 |
-| Deposited in an open repository | 75 | 76 |
+| Deposited in an open repository | 75 | 75 |
 
-The CCGP set is a census of every California Conservation Genomics Project genome report in
-*Journal of Heredity* with open full text, not a sample. Two CCGP reports acknowledge Indigenous lands
+The CCGP set is every California Conservation Genomics Project genome report in *Journal of Heredity*
+that Europe PMC indexes with open full text (a paywalled report that does not name the project in its
+abstract would be missed), not a sample. Two CCGP reports acknowledge Indigenous lands
 (one names the Chumash and Gabrielino-Tongva; one is generic); none reports consultation; none carries
 a Local Contexts Label. The only two genome reports in either set that document consultation or
 partnership are from Aotearoa (iwi consultation, Hector's and Māui dolphin) and Nunavut (Inuit
@@ -70,27 +71,35 @@ of the sequenced individual's wild collection classified by who holds the land o
 ([`land_type_adjudications.csv`](genome_report_audit/results/land_type_adjudications.csv), one row per
 report with the site, the basis of the call and a note).
 
-| Land tenure of the sampling site | CCGP (n = 75) | Other EBP-affiliated (n = 76) |
+| Land tenure of the sampling site | CCGP (n = 75) | Other EBP-affiliated (n = 75) |
 |---|---|---|
 | Federal (national) public land or waters | 15 | 4 |
-| State or provincial public land or waters | 9 | 4 |
-| County or municipal park | 3 | 0 |
+| State or provincial public land or waters | 10 | 4 |
+| County or municipal park | 4 | 0 |
 | University reserve, station or garden | 6 | 1 |
 | Private land or preserve | 6 | 3 |
-| Indigenous-governed lands or waters | 0 | 2 |
-| Public waters, no named managed unit | 4 | 13 |
+| Indigenous co-governance of the site described in the report | 0 | 2 |
+| Public waters, no named managed unit | 2 | 13 |
 | Ex situ source (captive, cultivated, museum) | 5 | 25 |
-| Land tenure not stated or not resolvable | 27 | 24 |
+| Land tenure not stated or not resolvable | 27 | 23 |
 
 Half of the CCGP genomes (37/75) come from public land, public waters or university reserves, and
-not one of those reports names the Nation whose territory the unit sits on. The two reports in the
-"Indigenous-governed" row are the same two that document consultation (Aotearoa and Nunavut). A call
-is marked *stated* when the report itself names the managing unit or owner (national park, wildlife
-area, UC reserve, private residence), *inferred* when it names a well-known site whose manager is
-public record but is not given in the report (Cow Mountain = BLM, McClures Beach = Point Reyes
-National Seashore), and *none* otherwise; 14 CCGP and 6 other calls are inferred. One paper included
-in the first release of this audit (PMC9946810, a genome-assembly software paper) was found during
-this review not to be a genome report and is now excluded, so the other-EBP stratum is 76, not 77.
+not one of those reports names the Nation whose territory the unit sits on. A call is marked *stated*
+when the report itself names the managing unit or owner (national park, wildlife area, UC reserve,
+private residence), *inferred* when it names a site whose manager is public record but is not given in
+the report (Cow Mountain = BLM, McClures Beach = Point Reyes National Seashore), and *none* otherwise.
+California marine and intertidal points were tested against the CDFW marine protected area boundaries
+(BIOS ds582, point-in-polygon); two Pacific Grove sites fall inside state MPAs and are classed as state
+waters, the rest fall outside and stay "public waters, no named unit". The "Indigenous co-governance"
+row is not an independent tenure finding: the two reports in it (Nunavut land-claim waters, Aotearoa
+coastal waters under iwi rangatiratanga) are placed there because the reports themselves describe that
+authority, and they are the same two that document consultation. The locality criterion in panel A is
+now the hand read from the same sheet, because the regex used in the first release missed plain town
+names (Húsavík, Kunming, Blanes) and counted zoos; the automated count is kept in `scores_final.csv`
+as `location_reported_auto`. Two papers included in the first release were removed on re-reading
+(PMC9946810, a software paper; PMC12921467, a grafted carob cultivar, excluded under the cultivar rule),
+so the other-EBP stratum is 75, not 77. All land-tenure calls were made by a single coder in one pass;
+24 are inferred rather than stated.
 
 ## Method, shared by both audits
 

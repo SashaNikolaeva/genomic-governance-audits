@@ -1,43 +1,45 @@
 {
  "CCGP": {
   "n": 75,
-  "location_reported": 74,
+  "location_reported": 73,
   "permit_mentioned": 39,
   "indigenous_lands": 2,
   "consultation_care": 0,
   "local_contexts": 0,
   "indigenous_cultural_mention": 3,
   "coordinates": 63,
+  "location_reported_auto": 74,
   "open_deposition": 75,
   "us_sampling": 65,
   "land_type": {
    "federal_public": 15,
-   "state_public": 9,
-   "local_public": 3,
+   "state_public": 10,
+   "local_public": 4,
    "university_reserve": 6,
    "private_land": 6,
    "indigenous_lands_waters": 0,
-   "marine_waters": 4,
+   "marine_waters": 2,
    "ex_situ": 5,
    "unspecified": 27
   },
   "land_type_basis": {
-   "stated": 30,
-   "inferred": 14,
-   "none": 31
+   "stated": 29,
+   "inferred": 17,
+   "none": 29
   },
   "public_or_university": 37
  },
  "EBP-other": {
-  "n": 76,
-  "location_reported": 42,
-  "permit_mentioned": 39,
+  "n": 75,
+  "location_reported": 55,
+  "permit_mentioned": 38,
   "indigenous_lands": 4,
   "consultation_care": 2,
   "local_contexts": 0,
   "indigenous_cultural_mention": 2,
-  "coordinates": 19,
-  "open_deposition": 76,
+  "coordinates": 18,
+  "location_reported_auto": 41,
+  "open_deposition": 75,
   "us_sampling": 31,
   "land_type": {
    "federal_public": 4,
@@ -48,12 +50,12 @@
    "indigenous_lands_waters": 2,
    "marine_waters": 13,
    "ex_situ": 25,
-   "unspecified": 24
+   "unspecified": 23
   },
   "land_type_basis": {
-   "stated": 33,
-   "inferred": 6,
-   "none": 37
+   "stated": 32,
+   "inferred": 7,
+   "none": 36
   },
   "public_or_university": 22
  }
