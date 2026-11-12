@@ -9,18 +9,52 @@
   "indigenous_cultural_mention": 3,
   "coordinates": 63,
   "open_deposition": 75,
-  "us_sampling": 65
+  "us_sampling": 65,
+  "land_type": {
+   "federal_public": 15,
+   "state_public": 9,
+   "local_public": 3,
+   "university_reserve": 6,
+   "private_land": 6,
+   "indigenous_lands_waters": 0,
+   "marine_waters": 4,
+   "ex_situ": 5,
+   "unspecified": 27
+  },
+  "land_type_basis": {
+   "stated": 30,
+   "inferred": 14,
+   "none": 31
+  },
+  "public_or_university": 37
  },
  "EBP-other": {
-  "n": 77,
-  "location_reported": 43,
+  "n": 76,
+  "location_reported": 42,
   "permit_mentioned": 39,
   "indigenous_lands": 4,
   "consultation_care": 2,
   "local_contexts": 0,
   "indigenous_cultural_mention": 2,
-  "coordinates": 20,
-  "open_deposition": 77,
-  "us_sampling": 31
+  "coordinates": 19,
+  "open_deposition": 76,
+  "us_sampling": 31,
+  "land_type": {
+   "federal_public": 4,
+   "state_public": 4,
+   "local_public": 0,
+   "university_reserve": 1,
+   "private_land": 3,
+   "indigenous_lands_waters": 2,
+   "marine_waters": 13,
+   "ex_situ": 25,
+   "unspecified": 24
+  },
+  "land_type_basis": {
+   "stated": 33,
+   "inferred": 6,
+   "none": 37
+  },
+  "public_or_university": 22
  }
 }

@@ -1,0 +1,152 @@
+pmcid,land_type,basis,site,note
+PMC10019021,marine_waters,none,"intertidal near Pacific Grove, CA","no named managed unit; CDFW permit"
+PMC10019022,private_land,stated,"private conservation lands, Placer County, CA",
+PMC10019023,unspecified,none,"tire tread in Davis, CA","urban; permit not required"
+PMC10019024,unspecified,none,"near Carmel-by-the-Sea, CA",
+PMC10287143,state_public,stated,"Spenceville Wildlife Area, CA","CDFW wildlife area"
+PMC10287145,unspecified,none,"lower Cache Creek, Yolo County, CA",
+PMC10287146,university_reserve,stated,"Angelo Coast Range Reserve, CA","UC Natural Reserve System"
+PMC10287147,state_public,stated,"Spenceville Wildlife Area, CA","CDFW wildlife area"
+PMC10287149,federal_public,inferred,"Cow Mountain Recreation Management Area, Lake County, CA","BLM unit; agency not named in report"
+PMC10445514,private_land,inferred,"Mitsui Ranch, Sonoma Mountain, CA","private conservation ranch"
+PMC10445515,federal_public,stated,"Yosemite National Park, CA","NPS permit cited"
+PMC10445516,university_reserve,stated,"Stunt Ranch Santa Monica Mountains Reserve, CA","UC Natural Reserve System"
+PMC10650945,federal_public,inferred,"Cow Mountain Recreation Management Area, Lake County, CA","BLM unit; agency not named in report"
+PMC10650946,federal_public,stated,"Joshua Tree National Park, CA",
+PMC10650947,private_land,stated,"private residence, Fillmore, CA",
+PMC10650948,unspecified,none,"habitat patch at road intersection, 4S Ranch, San Diego County, CA","suburban"
+PMC10650949,university_reserve,stated,"UC Berkeley Botanical Garden, CA","wild-caught on UC grounds; second specimen from a private backyard"
+PMC10838119,unspecified,none,"mouth of Freeman Canyon, Kern County, CA",
+PMC10838121,unspecified,none,"maternity colony, Chester, Plumas County, CA",
+PMC10838126,unspecified,none,"6 km E of Mark West Springs, Sonoma County, CA",
+PMC10936552,unspecified,none,"decommissioned mine near Big Pine, Inyo County, CA",
+PMC10936553,ex_situ,stated,"planted tree, California Botanic Garden, Claremont, CA","wild origin: Toyon Canyon, Catalina Island, 1966"
+PMC11081134,unspecified,none,"near Stephen Sorensen Park, Los Angeles County, CA","'near' a county park"
+PMC11334205,unspecified,none,"Kings Beach, Placer County, CA","CDFW relocation capture in a town"
+PMC11334207,ex_situ,stated,"UC Botanical Garden accession (1982), Berkeley, CA","wild origin site not given"
+PMC11879183,state_public,inferred,"Topanga Lagoon, Los Angeles County, CA","Topanga State Park / State Beach"
+PMC12130430,unspecified,none,"north of Crescent City, CA",
+PMC12130431,unspecified,none,"2.8 km E of La Porte, CA",
+PMC12130434,local_public,stated,"Linda Vista Park, Cupertino, CA","city park; queen wild-caught, offspring lab-reared"
+PMC12130436,federal_public,stated,"Los Padres National Forest, Jesusita trail, CA","cultured from field-collected spores"
+PMC12130438,federal_public,inferred,"Sonora Peak, Sierra Nevada, CA","USFS wilderness; agency not named"
+PMC12277564,ex_situ,stated,"Sonoma County Wildlife Rescue (captive since 2018)","wild-born near Santa Paula, CA"
+PMC12277566,unspecified,none,"mouth of Freeman Canyon, Kern County, CA",
+PMC12277567,university_reserve,stated,"UC Richmond Field Station, CA",
+PMC12400801,state_public,stated,"Rincon beach intertidal, Santa Barbara County, CA","California State Parks permit cited"
+PMC12400808,local_public,stated,"Tilden Regional Park, CA","East Bay Regional Park District"
+PMC12584591,state_public,stated,"Footprint State Marine Reserve, CA","state MPA within Channel Islands National Marine Sanctuary; NOAA permit"
+PMC12767194,unspecified,none,"Prefumo Canyon, San Luis Obispo County, CA (seed source)","plant greenhouse-grown from wild seed"
+PMC12767197,unspecified,none,"Deer Park, San Diego County, CA",
+PMC12767199,federal_public,inferred,"rocky intertidal at Lifeboat House, Point Reyes, CA","Point Reyes National Seashore; not named"
+PMC12767203,ex_situ,stated,"American River Trout Hatchery, CA","hatchery stock; parents from Lahontan National Fish Hatchery, NV"
+PMC13016638,unspecified,none,"Canebrake Creek, Kern River Valley, CA","possibly CDFW Canebrake Ecological Reserve; not stated"
+PMC13016689,federal_public,inferred,"Cow Mountain Recreation Management Area, Lake County, CA","BLM unit; agency not named in report"
+PMC13016697,unspecified,none,"mouth of French Canyon, Inyo Mountains, CA",
+PMC13017466,university_reserve,stated,"McLaughlin Reserve, CA (seed source)","UC Natural Reserve System; grown in UCSD greenhouse"
+PMC13017476,federal_public,inferred,"McClures Beach, Marin County, CA","Point Reyes National Seashore; not named"
+PMC13017869,federal_public,stated,"Olmsted Point, Yosemite National Park, CA","lab-selfed descendant of wild seed"
+PMC13147169,unspecified,none,"roadside, Knoxville-Berryessa Road, Napa County, CA",
+PMC13147172,marine_waters,none,"subtidal at Campus Point, Goleta, CA; Windansea tidepools, San Diego","no named unit (Campus Point SMCA not named)"
+PMC13147173,unspecified,none,"McClusky Slough, Monterey County, CA",
+PMC13147174,private_land,inferred,"Flying M Ranch, Merced County, CA","private ranch"
+PMC13147175,federal_public,stated,"near Howard Lake, Mendocino National Forest, CA","grown to maturity in Oakland"
+PMC13147176,private_land,stated,"The Nature Conservancy Vina Plains Preserve, CA","grown from wild seed"
+PMC13147177,federal_public,stated,"San Bernardino National Forest, CA","CDFW capture"
+PMC13147178,local_public,inferred,"Niguel Botanical Preserve, Laguna Niguel, CA (B. sonorus)","city park; B. vosnesenskii from San Diego Botanic Garden (nonprofit)"
+PMC13147179,university_reserve,stated,"Año Nuevo Reserve, CA","UC Natural Reserve System"
+PMC13326405,unspecified,none,"canyon near Whitewater River, CA (2013 seed source)","third-generation inbred greenhouse line"
+PMC13326406,federal_public,inferred,"alpine meadow near Sonora Peak, Mono County, CA","USFS wilderness; agency not named"
+PMC13326408,unspecified,none,"Little Hot Creek, Owens basin, CA (tui chub); Tijeras Creek, CA (arroyo chub)",
+PMC13326411,unspecified,none,"Bandy Canyon, San Diego County, CA",
+PMC13326419,state_public,inferred,"Surfrider Beach, Malibu, CA","Malibu Lagoon State Beach; not named"
+PMC13733530,unspecified,none,"tire-track puddle on dirt trail, Los Angeles County, CA","tadpole reared 2.5 yr in captivity"
+PMC13733543,unspecified,none,"Fish Slough, Owens basin, CA","BLM-led cooperative ACEC; not stated"
+PMC9113465,federal_public,stated,"Angeles National Forest, CA",
+PMC9709963,marine_waters,none,"Pacific Grove, CA (intertidal anemone)","no named managed unit"
+PMC9709964,unspecified,none,"found near Redwood Valley, Mendocino County, CA","injured animal sampled at a rehabilitation facility under CDFW MOU"
+PMC9709966,private_land,inferred,"Jepson Prairie Preserve, Solano County, CA","Solano Land Trust; co-managed with UC NRS"
+PMC9709976,state_public,stated,"Leo Carrillo State Beach, CA",
+PMC9709977,marine_waters,none,"Terrace Point, Santa Cruz, CA, 11-13 m depth","no named managed unit"
+PMC9709978,state_public,stated,"Leo Carrillo State Park, CA",
+PMC9709981,ex_situ,stated,"CDFW shellfish lab at UC Davis Bodega Marine Laboratory (captive since 2005)","wild origin: Carmel, CA"
+PMC9709993,unspecified,none,"Putah Creek, Solano County, CA","coordinates fall in UC Davis Putah Creek Riparian Reserve; not stated"
+PMC9709995,unspecified,none,"roadside, Phelan, San Bernardino County, CA",
+PMC9709998,state_public,stated,"Van Damme State Park, CA","collected 2016, held at Bodega Marine Laboratory"
+PMC9710001,federal_public,inferred,"McClures Beach, Marin County, CA","Point Reyes National Seashore; not named"
+PMC10044405,private_land,stated,"farm near Milan, Italy",
+PMC10071556,ex_situ,stated,"Utica Zoo, NY, USA",
+PMC10085792,private_land,stated,"soybean farm, Rock County, MN, USA","adults reared from field-collected stems"
+PMC10214862,unspecified,none,"Aire Island, Menorca, Spain",
+PMC10320755,unspecified,none,"Husavik, Iceland (hunted)",
+PMC10457150,unspecified,none,"Middleton Island, Alaska, USA","USFWS license for birds; land tenure not stated"
+PMC10541798,unspecified,none,"Taquari River, Sao Paulo, Brazil",
+PMC10566576,marine_waters,none,"Xisha Islands, South China Sea","'official permission'"
+PMC10573602,ex_situ,stated,"European Mink Centre, Szczecin, Poland (captive-born)",
+PMC10590160,state_public,stated,"Marine Protected Area of Palma Bay, Balearic Islands, Spain","regional MPA"
+PMC10659057,indigenous_lands_waters,stated,"Hudson Bay-Strait Complex, Canada","harvested by Nunavik or Nunavut Inuit communities (land-claim waters)"
+PMC10709322,ex_situ,stated,"Se-Bo Su-San aquaculture farm, Gyeongsangnam-do, South Korea","farmed from wild-caught juvenile"
+PMC10850158,ex_situ,stated,"laboratory colony, Humboldt University, Berlin (captive-born)",
+PMC10901555,ex_situ,stated,"Nordens Ark captive population, Sweden","founded 2019 from Blekinge wild population"
+PMC10917472,unspecified,none,"Newcastle, Australia (urban)",
+PMC10936554,state_public,stated,"Moreton Bay Marine Park, Queensland, Australia","state marine park permit"
+PMC11003540,federal_public,inferred,"Regno di Nettuno Marine Protected Area, Ischia, Italy","Italian national MPA; permission cited"
+PMC11215541,university_reserve,stated,"Ornithological Station of the Latvian University, Pape, Latvia",
+PMC11251423,marine_waters,none,"beach on Jeloya, Moss, Norway",
+PMC11304951,federal_public,inferred,"Tranquillon Mountain / Sudden Peak, south of Lompoc, CA","Vandenberg Space Force Base; staff thanked in acknowledgements"
+PMC11310861,marine_waters,none,"Colera, Girona, Spain",
+PMC11390914,unspecified,none,"forest clearing near Parintins, Amazonas, Brazil","illegally shot bird, sampled at IBAMA rescue centre"
+PMC11516051,unspecified,none,"Yongtai County, Fujian, China","3-year-old tree; probably planted"
+PMC11531507,unspecified,none,"Yancheng, Jiangsu, China",
+PMC11579313,unspecified,none,"Kunming, China",
+PMC11790892,ex_situ,inferred,"captive-bred gyrfalcon (Canadian/Alaskan pure-bred lineages)","reference female's origin not individually stated"
+PMC11803306,marine_waters,none,"Cap de Castell, 18 m depth, Catalonia, Spain; Hi-C colony Meda Petita","Montgri-Medes-Baix Ter natural park not named"
+PMC11906739,marine_waters,none,"SW of Barrow Island, Western Australia",
+PMC11971340,marine_waters,none,"Cala Sant Francesc, Blanes, Spain",
+PMC12130440,unspecified,none,"Sondre Skjaelholmen, Nesodden, Norway",
+PMC12134992,state_public,inferred,"Mt Ginini, Brindabella Ranges, ACT, Australia","Namadgi National Park (territory-managed); not named"
+PMC12143204,marine_waters,none,"Algodoeiro Beach, Sal Island, Cabo Verde","nesting beach; national permit"
+PMC12174908,unspecified,none,"Bordes d'Envalira, Canillo, Andorra",
+PMC12205365,ex_situ,stated,"market-rejected eggplants, Luzon, Philippines; IPB-reared samples",
+PMC12208295,ex_situ,stated,"pet trade (Josh's Frogs) and University of Chicago lab colonies",
+PMC12244726,ex_situ,stated,"Cairns Botanic Gardens accession grown at Royal Botanic Gardens Victoria","wild origin: Babinda area, Queensland"
+PMC12313876,unspecified,none,"Seonyu Island, Gunsan, South Korea",
+PMC12360841,state_public,inferred,"road verge 62 km W of Eulo, Queensland, Australia","public road reserve"
+PMC12360845,ex_situ,stated,"captive lizard, Zhejiang University, China",
+PMC12405506,unspecified,none,"mainland Corsica, France",
+PMC12415809,indigenous_lands_waters,stated,"Te Koko-o-Kupe (Cloudy Bay) and Whaingaroa (Raglan) coastal waters, Aotearoa New Zealand","iwi with rangatiratanga and kaitiakitanga for the area consulted"
+PMC12448945,ex_situ,stated,"stranded/rehabilitated turtles (Oregon and Hawaii strandings; New England Aquarium)","N. depressus from a Western Australia nesting population"
+PMC12455985,ex_situ,stated,"Raptor Center & Wildlife Park Hellenthal, Germany",
+PMC12464528,unspecified,none,"Ciudad Real, Spain (wild female); farm-raised male from Lleida",
+PMC12481149,unspecified,none,"well in an old windmill, Es Pil.lari, Palma, Mallorca, Spain",
+PMC12498223,marine_waters,none,"Noumea, New Caledonia; Gaafu Dhaalu Atoll, Maldives","provincial and national permits"
+PMC12521596,unspecified,none,"fields in Huzhou, Zhejiang, China","agricultural fields"
+PMC12609170,ex_situ,stated,"Duke Lemur Center, NC, USA (captive)",
+PMC12631120,ex_situ,stated,"San Diego Zoo Wildlife Alliance cell lines",
+PMC12767196,ex_situ,stated,"frozen museum tissue, Zoological Museum, University of Oulu","bird found dead near Lentiira, Kuhmo, Finland, 2001"
+PMC12774601,unspecified,none,"Ethiopia (EWCA permits); site not given in methods",
+PMC12869067,private_land,stated,"private bumblebee breeder, Enger, Innlandet, Norway",
+PMC12886999,unspecified,none,"Changde City, Hunan, China",
+PMC12908713,federal_public,stated,"Rondane National Park, Norway",
+PMC12921467,ex_situ,stated,"carob orchard (grafted cultivar), Pines, Lasithi, Crete, Greece",
+PMC13034126,federal_public,stated,"Carajas National Forest, Para, Brazil (seed source via extractivist cooperative)","grown in growth chamber"
+PMC13039961,unspecified,none,"Qilian Mountains, Qinghai, China (3,750 m)",
+PMC13127426,unspecified,none,"near Happy Jack, Coconino County, AZ, USA","Coconino National Forest likely; not stated"
+PMC13147171,unspecified,none,"Jervetunga, Rondane, Norway (hunted)","Rondane National Park not named"
+PMC13185315,ex_situ,stated,"San Diego Zoo Frozen Zoo biobank",
+PMC13296254,ex_situ,stated,"Guangzhou Zoo, China",
+PMC13319265,marine_waters,none,"coastal lagoon of Celestun, Yucatan, Mexico","Ria Celestun Biosphere Reserve not named"
+PMC13326412,marine_waters,none,"Arendal, Norway, 20-25 m depth",
+PMC13326416,ex_situ,stated,"Allevamento Storione Ticino sturgeon farm, Italy",
+PMC13343380,marine_waters,none,"Trondheimsfjorden, Norway, 219 m trawl",
+PMC13403569,unspecified,none,"King George Island, Antarctica (Arctowski station)","Antarctic Treaty area; INACH authorization"
+PMC13434710,marine_waters,none,"Pittwater Estuary, Tasmania, Australia","state fisheries permits"
+PMC13521413,unspecified,none,"upper Jubones River basin, Ecuador","locality withheld (poaching risk)"
+PMC13539444,ex_situ,stated,"Bronx Zoo, NY, USA (captive-born)",
+PMC13732437,ex_situ,stated,"deceased bird from a private collector via Cambridge Museum of Zoology, UK",
+PMC8917513,marine_waters,none,"Punta Meda, Nigran, Pontevedra, Spain (intertidal)",
+PMC8975718,ex_situ,inferred,"Copenhagen Zoo, Denmark","zoo co-authors; sampling sentence not in main text"
+PMC9553416,ex_situ,stated,"Zurich Zoo, Switzerland (captive since 1955)",
+PMC9635628,ex_situ,stated,"Field Museum frozen tissue (FMNH 358326)","collected 1992, Sibuyan Island, Philippines"
+PMC9730501,ex_situ,stated,"market-purchased eel, Japan",
+PMC9907493,unspecified,none,"Gifberg, Western Cape, South Africa",
