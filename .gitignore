@@ -1,0 +1,5 @@
+# downloaded full-text XML is not redistributed (fetch with the scripts)
+*/data/epmc_fulltext/
+*/data/fetch.log
+.DS_Store
+__pycache__/

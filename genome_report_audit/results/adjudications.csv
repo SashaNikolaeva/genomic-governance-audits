@@ -1,0 +1,36 @@
+pmcid,criterion,auto,verified,category,note
+PMC10445514,indigenous_lands,1,0,false_positive,"Haida Gwaii" used as a place name only
+PMC10445516,indigenous_lands,1,1,lands_acknowledged_generic,"Acknowledges Native Peoples of California as traditional caretakers of the sampled lands; no Nation named"
+PMC10650949,indigenous_lands,1,0,false_positive,"Tribe" is the taxonomic rank (Tribe Troidini)
+PMC10936553,indigenous_lands,1,1,lands_acknowledged_named_nation,"Channel Islands acknowledged as ancestral unceded territory of the Chumash and Gabrielino-Tongva Peoples"
+PMC12400801,indigenous_lands,1,0,cultural_significance_only,"Pismo clam historically harvested by Indigenous people / Chumash; sampling lands not identified as Indigenous"
+PMC12767203,indigenous_lands,1,0,cultural_significance_only,"Trout important to culture of indigenous people; 'Paiute cutthroat' is a fish name"
+PMC13016638,indigenous_lands,1,0,false_positive,"Shoshone, California is a town"
+PMC13017466,indigenous_lands,1,0,cultural_significance_only,"Poppy culturally significant to Indigenous communities in California; sampling lands not identified"
+PMC9709969,indigenous_lands,1,0,excluded_paper,overview paper
+PMC9709969,consultation_care,1,0,excluded_paper,overview paper (Nagoya mention)
+PMC10085792,indigenous_lands,1,0,false_positive,"South Dakota (state name)"
+PMC10659057,indigenous_lands,1,1,lands_acknowledged_named_nation,"Samples harvested by Nunavik/Nunavut Inuit; thanks Nunavut Inuit harvesters"
+PMC10659057,consultation_care,0,1,community_partnership,"Inuit harvesters provided the samples (partnership documented in acknowledgements, not formal consultation)"
+PMC10936554,indigenous_lands,1,0,cultural_significance_only,"Dugong culturally important to Torres Strait Islander and Aboriginal communities; sampling site not identified as Indigenous land"
+PMC11906739,indigenous_lands,1,1,lands_acknowledged_named_nation,"Acknowledges Traditional Owners with connections to Barrow Island where specimen was collected"
+PMC12360841,indigenous_lands,1,0,false_positive,"Author affiliation (National Centre for Indigenous Genomics)"
+PMC12415809,indigenous_lands,1,1,lands_acknowledged_named_nation,"Iwi with rangatiratanga and kaitiakitanga for the stranding site identified; taonga/tapu status stated"
+PMC12415809,consultation_care,1,1,formal_consultation,"Consultation and engagement with iwi and hapū carried out and reported in author contributions"
+PMC13127426,indigenous_lands,1,0,false_positive,"NSF grant title mentions Tribal students and TEK; sampling lands not identified"
+PMC13127426,consultation_care,1,0,false_positive,"Funding statement only"
+PMC13147171,indigenous_lands,1,0,cultural_significance_only,"Reindeer herding by Eurasian indigenous people; sampling land not identified as Indigenous"
+PMC13434710,indigenous_lands,1,1,lands_acknowledged_named_nation,"Acknowledges Palawa/Tasmanian Aboriginal people as custodians of the Sea Country fished"
+PMC11251423,consultation_care,1,0,abs_compliance_statement,"States Nagoya Protocol does not apply (Norway)"
+PMC9907493,consultation_care,1,0,abs_compliance_statement,"Nagoya compliance certificate (South Africa); no Indigenous consultation"
+PMC12134992,consultation_care,1,0,false_positive,"'consultant role' in competing interests"
+PMC12360841,consultation_care,1,0,false_positive,"'consultant role' in competing interests"
+PMC11092101,consultation_care,1,0,false_positive,"'project consultation' among coauthors"
+PMC11408243,indigenous_lands,1,0,excluded_paper,ERGA methods paper
+PMC11408243,consultation_care,1,0,excluded_paper,ERGA methods paper
+PMC11408243,local_contexts,1,0,excluded_paper,ERGA methods paper
+PMC11408602,indigenous_lands,1,0,excluded_paper,ERGA consortium paper
+PMC11408602,consultation_care,1,0,excluded_paper,ERGA consortium paper
+PMC11408602,local_contexts,1,0,excluded_paper,ERGA consortium paper
+PMC12684346,indigenous_lands,1,0,excluded_paper,meta-analysis
+PMC12684346,consultation_care,1,0,excluded_paper,meta-analysis

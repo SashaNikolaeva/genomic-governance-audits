@@ -1,0 +1,38 @@
+{
+ "CA-DNA_all": {
+  "n": 910,
+  "location_reported": 588,
+  "coordinates": 320,
+  "named_place": 494,
+  "locality_withheld": 6,
+  "indigenous_lands": 92,
+  "consultation_care": 33,
+  "local_contexts": 0,
+  "permit_mentioned": 536,
+  "open_deposition": 752,
+  "us_sampling": 762,
+  "california": 649,
+  "mou_mentioned": 17,
+  "human_subjects_terms": 172,
+  "nonhuman_organism": 904,
+  "california_sampling": 649
+ },
+ "CA-DNA_screened_in": {
+  "n": 733,
+  "location_reported": 494,
+  "coordinates": 273,
+  "named_place": 418,
+  "locality_withheld": 4,
+  "indigenous_lands": 76,
+  "consultation_care": 23,
+  "local_contexts": 0,
+  "permit_mentioned": 444,
+  "open_deposition": 615,
+  "us_sampling": 609,
+  "california": 519,
+  "mou_mentioned": 12,
+  "human_subjects_terms": 0,
+  "nonhuman_organism": 733,
+  "california_sampling": 519
+ }
+}

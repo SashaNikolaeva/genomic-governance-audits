@@ -1,0 +1,26 @@
+{
+ "CCGP": {
+  "n": 75,
+  "location_reported": 74,
+  "permit_mentioned": 39,
+  "indigenous_lands": 2,
+  "consultation_care": 0,
+  "local_contexts": 0,
+  "indigenous_cultural_mention": 3,
+  "coordinates": 63,
+  "open_deposition": 75,
+  "us_sampling": 65
+ },
+ "EBP-other": {
+  "n": 77,
+  "location_reported": 43,
+  "permit_mentioned": 39,
+  "indigenous_lands": 4,
+  "consultation_care": 2,
+  "local_contexts": 0,
+  "indigenous_cultural_mention": 2,
+  "coordinates": 20,
+  "open_deposition": 77,
+  "us_sampling": 31
+ }
+}

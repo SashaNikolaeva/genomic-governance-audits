@@ -1,0 +1,44 @@
+{
+ "CCGP": {
+  "n": 78,
+  "location_reported": 76,
+  "coordinates": 65,
+  "named_place": 70,
+  "locality_withheld": 1,
+  "indigenous_lands": 9,
+  "consultation_care": 1,
+  "local_contexts": 0,
+  "permit_mentioned": 41,
+  "open_deposition": 75,
+  "us_sampling": 68,
+  "california": 64
+ },
+ "EBP-other_all": {
+  "n": 113,
+  "location_reported": 53,
+  "coordinates": 28,
+  "named_place": 33,
+  "locality_withheld": 4,
+  "indigenous_lands": 12,
+  "consultation_care": 10,
+  "local_contexts": 2,
+  "permit_mentioned": 57,
+  "open_deposition": 110,
+  "us_sampling": 43,
+  "california": 7
+ },
+ "EBP-other_US": {
+  "n": 43,
+  "location_reported": 22,
+  "coordinates": 10,
+  "named_place": 17,
+  "locality_withheld": 0,
+  "indigenous_lands": 4,
+  "consultation_care": 3,
+  "local_contexts": 0,
+  "permit_mentioned": 22,
+  "open_deposition": 41,
+  "us_sampling": 43,
+  "california": 7
+ }
+}

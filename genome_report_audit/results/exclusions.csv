@@ -1,0 +1,40 @@
+pmcid,stratum,reason
+PMC9709969,CCGP,overview paper (CCGP and state policy), not a genome report
+PMC9709974,CCGP,phylogeny/prioritization paper, not a genome report
+PMC9709982,CCGP,historical review, not a genome report
+PMC8864876,EBP-other,software (HiFiAdapterFilt)
+PMC9254108,EBP-other,methods guide
+PMC9438950,EBP-other,software (Gfastats)
+PMC10354987,EBP-other,software (MitoHiFi)
+PMC10531373,EBP-other,methods (proteomics evaluation of annotation)
+PMC10997085,EBP-other,methods (sex assignment by RAD-seq)
+PMC11267146,EBP-other,multi-species catalog/consortium description
+PMC11408243,EBP-other,consortium methods paper (ERGA sample metadata)
+PMC11408602,EBP-other,consortium description (ERGA pilot)
+PMC11514472,EBP-other,software (deep-learning assembly)
+PMC11809032,EBP-other,methods (sequencing museum specimens)
+PMC11912837,EBP-other,nomenclature guidelines
+PMC12065627,EBP-other,software (Colora workflow)
+PMC12203254,EBP-other,review (T2T plant pan-genomics)
+PMC12212074,EBP-other,software (Verkko2)
+PMC12684346,EBP-other,meta-analysis of existing genomes
+PMC12841270,EBP-other,phylogenetic method
+PMC7618685,EBP-other,review/perspective
+PMC12800776,EBP-other,software (Pipeasm)
+PMC13221836,EBP-other,methods (sample preservation)
+PMC13232491,EBP-other,commentary (snail plots)
+PMC13650653,EBP-other,EBP quality standards paper
+PMC13688668,EBP-other,software (PoLoCo workflow)
+PMC10447506,EBP-other,domesticated breed (Korean cattle)
+PMC10700341,EBP-other,domesticated breed (Silkie chicken)
+PMC12080228,EBP-other,domesticated breed (Jinhua pig)
+PMC12550489,EBP-other,crop cultivar (Coffea arabica)
+PMC12869074,EBP-other,crop cultivars (Cannabis)
+PMC13603154,EBP-other,domesticated breed (dromedary camel)
+PMC11079485,EBP-other,crop accessions (domestication study)
+PMC12076936,EBP-other,crop (switchgrass)
+PMC11912684,EBP-other,laboratory parasite strain (Eimeria)
+PMC11092101,EBP-other,laboratory culture strain (Picochlorum)
+PMC10608111,EBP-other,cultivated fungus (Ganoderma)
+PMC9180572,EBP-other,laboratory colony (Tribolium)
+PMC9641963,EBP-other,laboratory colony (Nile rat)

@@ -1,0 +1,31 @@
+{
+ "population_abstract_level": 2720,
+ "population_with_fulltext": 1096,
+ "downloaded_and_parsed": 910,
+ "screened_out": {
+  "manual_exclusion": 248
+ },
+ "n_scored": 662,
+ "location_reported": 470,
+ "permit_mentioned": 401,
+ "indigenous_lands": 20,
+ "consultation_care": 6,
+ "tribal_mou": 1,
+ "local_contexts": 0,
+ "indigenous_cultural_mention": 15,
+ "any_mou_text": 1,
+ "coordinates": 266,
+ "open_deposition": 570,
+ "california_sampling_text": 489,
+ "agency_mou_for_sampling": 10,
+ "consultation_categories": {
+  "community_partnership": 2,
+  "formal_agreement": 1,
+  "formal_permission": 2,
+  "permission_other": 1
+ },
+ "lands_categories": {
+  "lands_acknowledged_generic": 4,
+  "lands_acknowledged_named_nation": 16
+ }
+}
